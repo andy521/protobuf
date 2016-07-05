@@ -6,7 +6,7 @@ namespace SilentOrbit.ProtocolBuffers
     /// <summary>
     /// Representation content of one or more .proto files
     /// </summary>
-    class ProtoCollection : ProtoMessage
+    public class ProtoCollection : ProtoMessage
     {
         public List<string> Import = new List<string>();
         public List<string> ImportPublic = new List<string>();

@@ -5,7 +5,7 @@ namespace SilentOrbit.ProtocolBuffers
     /// <summary>
     /// Representation of the build in data types
     /// </summary>
-    class ProtoBuiltin : ProtoType
+    public class ProtoBuiltin : ProtoType
     {
         #region Const of build in proto types
         public const string Double = "double";

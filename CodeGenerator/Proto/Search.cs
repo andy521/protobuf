@@ -2,7 +2,7 @@ using System;
 
 namespace SilentOrbit.ProtocolBuffers
 {
-    static class Search
+    public static class Search
     {
         /// <summary>
         /// Search for message in hierarchy

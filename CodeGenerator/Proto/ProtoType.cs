@@ -5,7 +5,7 @@ namespace SilentOrbit.ProtocolBuffers
     /// <summary>
     /// A protobuf message or enum
     /// </summary>
-    abstract class ProtoType
+    public abstract class ProtoType
     {
         public ProtoMessage Parent { get; set; }
 

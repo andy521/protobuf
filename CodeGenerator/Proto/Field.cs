@@ -2,7 +2,7 @@ using System;
 
 namespace SilentOrbit.ProtocolBuffers
 {
-    class Field : IComment
+    public class Field : IComment
     {
         public readonly SourcePath Source;
 

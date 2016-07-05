@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SilentOrbit.ProtocolBuffers
 {
-    class ProtoEnum : ProtoType, IComment
+    public class ProtoEnum : ProtoType, IComment
     {
         public override Wire WireType
         {
